@@ -6,6 +6,9 @@
   "routes": [
     {
       "src": "/(.*)",
+      "headers": {
+        "x-vercel-protection": "true"
+      },
       "dest": "/"
     }
   ]
